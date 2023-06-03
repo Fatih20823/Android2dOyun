@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OyunEkraniActivity">
+
+    <TextView
+        android:id="@+id/textViewSkor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="174dp"
+        android:text="0"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/anakarakter"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="322dp"
+        android:layout_marginBottom="262dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/anakarakter" />
+
+    <ImageView
+        android:id="@+id/sariDaire"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/saridaire"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ImageView
+        android:id="@+id/pembeUcgen"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/kirmiziucgen"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <ImageView
+        android:id="@+id/siyahKarakter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/siyahkare"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <TextView
+        android:id="@+id/textViewOyunaBasla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Oyuna Başlamak İçin Tıkla"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
